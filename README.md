@@ -150,17 +150,5 @@ agant-IA/
 
 ## 👥 Membres du projet
 
-| Nom | Rôle |
-|-----|------|
-| *À compléter* | *À compléter* |
-| *À compléter* | *À compléter* |
-
-
-
----
-
-## 📝 Notes
-
-- L'agent ne réserve **rien** et n'invente jamais de prix : il utilise toujours les outils pour les données réelles.
-- La mémoire et les sessions sont stockées en clair dans `data/` (projet pédagogique).
-- Pensez à **régénérer l'index RAG** (`php indexer-rag.php`) si vous modifiez les fichiers de `data/knowledge/`.# agent-ia-
+Abdellah Hamouni
+Rayan Loulout
