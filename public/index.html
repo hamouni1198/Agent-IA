@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TripMate — Ton assistant de voyage</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app">
+    <header class="header">
+      <div class="brand">
+        <span class="logo">✈️</span>
+        <div>
+          <h1>TripMate</h1>
+          <p class="subtitle">Ton assistant IA de planification de voyage</p>
+        </div>
+      </div>
+      <button id="reset-btn" class="reset-btn" title="Nouvelle conversation">↻ Nouvelle conv.</button>
+    </header>
+
+    <main id="messages" class="messages">
+      <div class="message assistant welcome">
+        <div class="bubble">
+          Salut ! Je suis <strong>TripMate</strong>, ton assistant de voyage. 🌍<br>
+          Dis-moi où tu veux aller, ton budget, tes envies… et on construit ton voyage ensemble.<br><br>
+          Quelques exemples :
+          <ul>
+            <li>« Je veux partir une semaine au Japon en avril »</li>
+            <li>« Suggère-moi une destination plage à moins de 1000€ »</li>
+            <li>« Cherche-moi un vol Paris → Marrakech le 20 juin »</li>
+          </ul>
+        </div>
+      </div>
+    </main>
+
+    <form id="form" class="composer">
+      <textarea id="input" rows="1" placeholder="Écris ton message…" autocomplete="off"></textarea>
+      <button id="send" type="submit" aria-label="Envoyer">➤</button>
+    </form>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

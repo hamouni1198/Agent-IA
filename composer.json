@@ -1,0 +1,22 @@
+{
+    "name": "hamouni/tripmate",
+    "description": "Agent IA de planification de voyage (TP EEMI)",
+    "type": "project",
+    "require": {
+        "php": ">=8.1",
+        "openai-php/client": "^0.10.3",
+        "guzzlehttp/guzzle": "^7.9",
+        "vlucas/phpdotenv": "^5.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "TripMate\\": "src/"
+        }
+    },
+    "config": {
+        "sort-packages": true,
+        "allow-plugins": {
+            "php-http/discovery": true
+        }
+    }
+}
